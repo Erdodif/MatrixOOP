@@ -34,6 +34,7 @@ public class Main {
     public static void nemLetezoFeladatok(){
         Balaton nemLetezik = new Balaton();
         kiln("Hőmérsékletek",nemLetezik.toString());
+        kiln("Part-nézet",nemLetezik.kiPartok());
     }
 
     public static void main(String[] args) {

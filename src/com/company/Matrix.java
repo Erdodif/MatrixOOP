@@ -111,7 +111,7 @@ public class Matrix {
         StringBuilder sorok = new StringBuilder();
         for (int i = 0; i < this.getSorokSzama(); i++) {
             for (int j = 0; j < this.getOszlopokSzama(); j++) {
-                sorok.append(this.getElem(i, j)).append(" ");
+                sorok.append(this.getElem(i, j)).append("\t");
             }
             sorok.append('\n');
         }
